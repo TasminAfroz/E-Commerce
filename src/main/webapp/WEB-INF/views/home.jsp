@@ -1,10 +1,6 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -18,15 +14,10 @@
     <title>Carousel Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-  
-    
-    <link href="<c:url value="resources/css/bootstrap.min.css" />" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-   
-      <link href="<c:url value="resources/css/carousel.css" />" rel="stylesheet">
-    
-    
+    <link href="/css/carousel.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -167,11 +158,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="resources/js/jquery-3.3.1.min"><\/script>')</script>
-    <script src="resources/js/bootstrap.min.js"></script>
-    
-    
-    
-    
+    <script>window.jQuery || document.write('<script src="/js/jquery-3.3.1.min"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
     </body>
 </html>
